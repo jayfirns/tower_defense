@@ -1,0 +1,9 @@
+projects/games/tower_defense/venv/
+venv/
+games/tower_defense/tower_defense.log
+games/tower_defense/tower_defense.log.1
+games/tower_defense/tower_defense.log.2
+games/tower_defense/tower_defense.log.3
+# Ignore all __pycache__ directories
+**/__pycache__/
+*/.DS_Store
