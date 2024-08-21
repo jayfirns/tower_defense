@@ -1,6 +1,6 @@
 ---
 created: 2024-08-17T22:07
-updated: 2024-08-20T00:33
+updated: 2024-08-21T16:28
 tags:
   - python
   - virtualenvironments
@@ -95,17 +95,13 @@ Ensure you have the following installed:
    ```
 
 3. **Install Dependencies**:
-   If you're inside the virtual environment, install Pygame:
+
+   You can just install the requirements.txt file
    ```
-   pip install pygame
+   pip install requirements.txt
    ```
 
-   If not, install it globally:
-   ```
-   pip3 install pygame
-   ```
-
-4. **Run the Game**:
+5. **Run the Game**:
    Once everything is installed, run the game:
    ```
    python main.py
