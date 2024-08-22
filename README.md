@@ -1,11 +1,13 @@
 ---
 created: 2024-08-17T22:07
-updated: 2024-08-21T16:35
+updated: 2024-08-22T11:20
 tags:
   - python
   - virtualenvironments
   - pygame
 ---
+[[Pygame fun]]
+
 
 ---
 
