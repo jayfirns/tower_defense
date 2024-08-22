@@ -12,10 +12,10 @@ Changes:
 
 Author: John Firnschild
 Written: 8/20/2024
-Version: 0.2.112
+Version: 0.2.2
 """
 
-version = "0.2.112"
+version = "0.2.2"
 
 import pygame
 from log_config import logger
@@ -55,11 +55,14 @@ class Base:
             ui_manager (UIManager): The UIManager instance used to update the base's health in the UI.
             max_health (int): The maximum health of the base.
         """
+        # Create better path to the sprite
+        sprite_path = os.path.join('assets', 'images', 'bases', 'coffee_shop_sm.png')
+
         self.position = pygame.Vector2(x, y)
         self.max_health = max_health
         self.health = self.max_health
         self.ui_manager = ui_manager
-        self.image = pygame.image.load("/Users/johnfirnschild/Documents/HomeLab/Python/projects/games/tower_defense/assets/images/bases/coffee_shop_sm.png")
+        self.image = pygame.image.load(sprite_path)
         self.rect = self.image.get_rect(center=(self.position.x, self.position.y))
         # Initialize UIManager with current health
         self.ui_manager.update_base_health(self.health)

@@ -18,10 +18,10 @@ Changes:
 
 Author: John Firnschild
 Written: 8/20/2024
-Version: 0.3.1
+Version: 0.3.2
 """
 
-version = "0.3.1"
+version = "0.3.2"
 
 import pygame
 from log_config import logger
@@ -50,18 +50,21 @@ class Tower:
             y (int): The y-coordinate of the tower's position.
             name (str): The type of the tower ("Light" or "Heavy").
         """
+        # Create better path to the sprite
+        sprite_path_heavy = os.path.join('assets', 'images', 'towers', 'ufo_1.png')
+        sprite_path_light = os.path.join('assets', 'images', 'towers', 'missle_launcher_2.png')
         self.position = pygame.Vector2(x, y)
         self.name = name
 
         # Load the appropriate sprite for the tower
         if self.name == "Heavy":
-            self.sprite = pygame.image.load("/Users/johnfirnschild/Documents/HomeLab/Python/projects/games/tower_defense/assets/images/towers/ufo_1.png")
+            self.sprite = pygame.image.load(sprite_path_heavy)
             self.range = 200
             self.fire_rate = 1.5  # Fire every 1.5 seconds
             self.damage = 30
             self.cost = 10  # Cost in points
         else:  # Default to Light tower
-            self.sprite = pygame.image.load("/Users/johnfirnschild/Documents/HomeLab/Python/projects/games/tower_defense/assets/images/towers/missle_launcher_2.png")
+            self.sprite = pygame.image.load(sprite_path_light)
             self.range = 150
             self.fire_rate = 1  # Fire every 1 second
             self.damage = 25

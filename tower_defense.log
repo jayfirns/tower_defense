@@ -38740,3 +38740,57 @@
 2024-08-21 16:10:02,043 - DEBUG - Rendering ribbon UI with score: 104, selected tower: Heavy, light towers: 11, heavy towers: 1, enemies: 11
 2024-08-21 16:10:02,048 - INFO - Rendered base health bar at position (10, 450) with width 95.2 and color (168, 86, 0)
 2024-08-21 16:10:02,050 - DEBUG - Displayed heavy tower message based on score: 104
+2024-08-21 18:43:24,708 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,708 - DEBUG -                                              
+2024-08-21 18:43:24,708 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/config.py version: 0.1.512
+2024-08-21 18:43:24,708 - DEBUG -                                              
+2024-08-21 18:43:24,708 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,709 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,709 - DEBUG -                                              
+2024-08-21 18:43:24,709 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/path.py version: 0.1.11
+2024-08-21 18:43:24,709 - DEBUG -                                              
+2024-08-21 18:43:24,709 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,709 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,709 - DEBUG -                                              
+2024-08-21 18:43:24,709 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/ui.py version: 0.1.512
+2024-08-21 18:43:24,709 - DEBUG -                                              
+2024-08-21 18:43:24,709 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,710 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,710 - DEBUG -                                              
+2024-08-21 18:43:24,710 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/enemy.py version: 0.3.12
+2024-08-21 18:43:24,710 - DEBUG -                                              
+2024-08-21 18:43:24,710 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,710 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,710 - DEBUG -                                              
+2024-08-21 18:43:24,710 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/tower.py version: 0.3.1
+2024-08-21 18:43:24,710 - DEBUG -                                              
+2024-08-21 18:43:24,710 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,710 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,710 - DEBUG -                                              
+2024-08-21 18:43:24,711 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/base.py version: 0.2.112
+2024-08-21 18:43:24,711 - DEBUG -                                              
+2024-08-21 18:43:24,711 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,711 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,711 - DEBUG -                                              
+2024-08-21 18:43:24,711 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/ammo.py version: 0.1.22
+2024-08-21 18:43:24,711 - DEBUG -                                              
+2024-08-21 18:43:24,711 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,711 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,711 - DEBUG -                                              
+2024-08-21 18:43:24,711 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/game.py version: 0.3.212
+2024-08-21 18:43:24,711 - DEBUG -                                              
+2024-08-21 18:43:24,711 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,711 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,711 - DEBUG -                                              
+2024-08-21 18:43:24,711 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/input_handler.py version: 0.1.11
+2024-08-21 18:43:24,711 - DEBUG -                                              
+2024-08-21 18:43:24,711 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,711 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,711 - DEBUG -                                              
+2024-08-21 18:43:24,712 - DEBUG - Running /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/main.py version: 0.1.512
+2024-08-21 18:43:24,712 - DEBUG -                                              
+2024-08-21 18:43:24,712 - DEBUG - ---------------------------------------------
+2024-08-21 18:43:24,712 - INFO - Pygame initialized successfully.
+2024-08-21 18:43:25,096 - DEBUG - Initializing /Users/johnfirnschild/Documents/HomeLab/git_projects/tower_defense/path.py, version: 0.1.11
+2024-08-21 18:43:25,096 - DEBUG - EnemySpawner created with interval: 3.00 seconds
+2024-08-21 18:43:25,097 - INFO - UI Manager initialized.

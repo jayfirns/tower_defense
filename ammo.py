@@ -8,12 +8,14 @@ Changes:
     • Added enhanced debugging visuals to confirm projectile visibility.
     • Verified boundary and movement logic for proper rendering of projectiles.
 
+"/Users/johnfirnschild/Documents/HomeLab/Python/projects/games/tower_defense/assets/images/projectiles/blast.png"
+
 Author: John Firnschild
 Written: 8/20/2024
-Version: 0.1.22
+Version: 0.1.3
 """
 
-version = "0.1.22"
+version = "0.1.3"
 
 import pygame
 from log_config import logger
@@ -41,6 +43,9 @@ class Ammo:
             speed (float): The speed at which the ammo moves.
             damage (int): The damage this ammo will deal to the enemy.
         """
+        # Create better path to the sprite
+        sprite_path = os.path.join('assets', 'images', 'projectiles', 'blast.png')
+
         self.position = pygame.Vector2(start_pos)  # Set initial position
         self.target_enemy = target_enemy  # Reference to the enemy being targeted
         self.speed = speed  # Speed of the projectile
@@ -48,7 +53,7 @@ class Ammo:
         self.active = True  # Track if the ammo is still active (not hit or off-screen)
 
         # Load the blast.png image for the ammo sprite
-        self.sprite = pygame.image.load("/Users/johnfirnschild/Documents/HomeLab/Python/projects/games/tower_defense/assets/images/projectiles/blast.png").convert_alpha()
+        self.sprite = pygame.image.load(sprite_path).convert_alpha()
         self.sprite = pygame.transform.scale(self.sprite, (30, 30))  # Scale the sprite if necessary
         self.rect = self.sprite.get_rect(center=(int(self.position.x), int(self.position.y)))  # Create a rect for positioning the sprite
 
